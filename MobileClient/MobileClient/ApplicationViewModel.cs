@@ -92,7 +92,7 @@ namespace MobileClient
             IEnumerable<Friend> friends = await friendsService.Get();
 
             // очищаем список
-            //Friends.Clear();
+            Friends.Clear();
             while (Friends.Any())
                 Friends.RemoveAt(Friends.Count - 1);
 
