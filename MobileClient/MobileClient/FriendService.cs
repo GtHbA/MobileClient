@@ -9,7 +9,7 @@ namespace MobileClient
 {
     public class FriendsService
     {
-        const string Url = "http://localhost:50699/api/friends/" /*"http://sitename-subdomain.somee.com/api/friends/"*/;
+        const string Url = "http://localhost:50699/api/friends/";
         // настройка клиента
         private HttpClient GetClient()
         {
